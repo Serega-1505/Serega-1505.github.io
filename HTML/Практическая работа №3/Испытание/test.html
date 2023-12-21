@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="ulf-8">
+		<meta name="keywords"content="вёрстка, HTML, CSS, обучение">
+		<meta name="description"content="Мой первый сайт">
+		<title> Сайт ученика группы БАС-23.161 Солодовниченко Сергея 
+		</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1> Сайт ученика группы БАС-23.161 Солодовниченко Сергея 
+			</h1>
+			
+			<nav>
+				<h1> <strong>Заявка на принятие в команду</strong>
+				</h1>
+			</nav>
+		</header>
+		<main>
+			<form method="get">
+				<label> Имя  <input required placeholder = "Ведите ваше имя" type = "text" name = "Username"> </label><br>
+				<label> Почта  <input required placeholder = "example@somemail.xxx" type = "email" name = "email"> </label><br>
+				<label> Пароль <input required placeholder = ">8 символов" type = "password" name = "password"></label><br>
+				<label> Телефон <input required placeholder = "8-***-***-**-**" type = "email" name = "pnone"></label><br>
+				<label> Пол <input type = "radio" name = "man" value = "yes" checked> Мужской <input type = "radio" name = "man" value = "yes"> Женский </label><br>
+				<label for = "question"> Имею скилл в <input type = "checkbox" checked id = "question" checked> CS <input type = "checkbox"> Dota <input type = "checkbox" disabled> OverWatch</label><br>
+				<p> Кратко о себе </p>
+				<label>
+				<textarea cols = 25 rows = 5 ></textarea>
+				</label><br>
+				<label>
+				Добавьте ваше фото
+				<input type = "file" disabled enctype = "profilepic/from-data">
+				</label><br>	
+				<label>
+				Играешь на своем компе?<br>
+				<select name = "Ваш год рождения">
+					<option value = "yes"> Да, только из дома </option>
+					<option value = "yes"> Нет, могу на вашем </option>
+					<option value = "yes" checked> Да, ноут могу играть откуда угодно </option>
+				</select>
+				</label><br>
+				<label>
+				<input type = "submit" value = "отправить">
+				</label><br>
+				<label>
+				<input type = "reset" value = "Очистить">
+				</label>
+			</form>
+		</main>
+	</body>

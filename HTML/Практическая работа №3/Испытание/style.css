@@ -1,0 +1,16 @@
+* {
+display: block;
+margin: 0;
+padding: 0;
+}
+body {
+width: 650px;
+margin: 0 auto;
+padding: 10px 20px;
+}
+input{
+display: inline;
+}
+label{
+margin: 15px 0;
+}
